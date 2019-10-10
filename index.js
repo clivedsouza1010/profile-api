@@ -27,5 +27,5 @@ app.get('/', (req, res) => {
 require('./app/routes/note.routes.js')(app);
 
 app.listen(5000, () => {
-  console.log("Server is listening on port 3001");
+  console.log("Server is listening on port 5000");
 });
